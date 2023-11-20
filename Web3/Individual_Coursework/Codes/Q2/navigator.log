@@ -1,0 +1,91 @@
+00:41:07.000 [main] INFO  com.daml.navigator.config.Config$ - Loading SDK config file from /Users/shenzhen/cash/daml.yaml 
+00:41:07.741 [da-ui-backend-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started 
+00:41:07.896 [da-ui-backend-akka.actor.default-dispatcher-5] INFO  c.d.n.store.platform.PlatformStore - Connecting to localhost:6865, using a plaintext connection akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-6, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:07.894UTC
+00:41:08.623 [main] INFO  com.daml.navigator.NavigatorBackend$ - DA UI backend server listening on port 7500 
+00:41:08.716 [da-ui-backend-akka.actor.default-dispatcher-5] INFO  c.d.n.store.platform.PlatformStore - Time service is not implemented akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-7, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:08.716UTC
+00:41:08.720 [da-ui-backend-akka.actor.default-dispatcher-5] INFO  c.d.n.store.platform.PlatformStore - Connected to platform at 'localhost:6865' akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-7, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:08.720UTC
+00:41:08.724 [da-ui-backend-akka.actor.default-dispatcher-5] INFO  c.d.n.store.platform.PlatformStore - Starting actor for the issuer akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-7, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:08.724UTC
+00:41:13.315 [da-ui-backend-akka.actor.default-dispatcher-9] INFO  c.d.n.store.platform.PlatformStore - Starting actor for the holder akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-7, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:13.314UTC
+00:41:13.382 [da-ui-backend-akka.actor.default-dispatcher-8] INFO  c.d.n.store.platform.PlatformStore - Starting actor for the exchange akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-7, akkaSource=akka://da-ui-backend/user/$a, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:13.382UTC
+00:41:15.060 [da-ui-backend-akka.actor.default-dispatcher-6] INFO  c.d.n.s.platform.PlatformSubscriber - Successfully loaded packages [bfcd37bd6b84768e86e432f5f6c33e25d9e7724a9d42e33875ff74f6348e733f, 518032f41fd0175461b35ae0c9691e08b4aea55e62915f8360af2cc7a1f2ba6c, cc348d369011362a5190fe96dd1f0dfbc697fdfd10e382b9e9666f0da05961b7, 99a2705ed38c1c26cbb8fe7acf36bbf626668e167a33335de932599219e0a235, e22bce619ae24ca3b8e6519281cb5a33b64b3190cc763248b4c3f9ad5087a92c, d58cf9939847921b2aab78eaa7b427dc4c649d25e6bee3c749ace4c3f52f5c97, 6c2c0667393c5f92f1885163068cd31800d2264eb088eb6fc740e11241b2bf06, e98753e360b3ef8059a6b8ea6327d0d8e0659e2ce10efceddebee69a40db9f86, 8a7806365bbd98d88b4c13832ebfa305f6abaeaf32cfa2b7dd25c4fa489b79fb, c1f1f00558799eec139fb4f4c76f95fb52fa1837a5dd29600baa1c8ed1bdccfd, 733e38d36a2759688a4b2c4cec69d48e7b55ecc8dedc8067b815926c917a182a, 814b6477c1505f3cdcb28e7c33161de3373f11da1a2ba705689558484e0c951b, 6839a6d3d430c569b2425e9391717b44ca324b88ba621d597778811b2d05031d, b30780986c028a69c45658dab9fd5d818e49b4d0cc2e2895f85430fce18135a5, 76bf0fd12bd945762a01f8fc5bbcdfa4d0ff20f8762af490f8f41d6237c6524f, 7f251391d4950ccf51b9983ebd2ffe1823d49ce92b536cc4ea96c18b38e2ae28, d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662, 057eed1fd48c238491b8ea06b9b5bf85a5d4c9275dd3f6183e0e6b01730cc2ba, e491352788e56ca4603acc411ffe1a49fefd76ed8b163af86cf5ee5f4c38645b, 40f452260bef3f29dede136108fc08a88d5a5250310281067087da6f0baddff7, 97b883cd8a2b7f49f90d5d39c981cf6e110cf1f1c64427a28a6d58ec88c43657] akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-5, akkaSource=akka://da-ui-backend/user/$a/party-the+issuer, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:15.059UTC
+00:41:15.060 [da-ui-backend-akka.actor.default-dispatcher-6] INFO  c.d.n.s.platform.PlatformSubscriber - Successfully loaded packages [bfcd37bd6b84768e86e432f5f6c33e25d9e7724a9d42e33875ff74f6348e733f, 518032f41fd0175461b35ae0c9691e08b4aea55e62915f8360af2cc7a1f2ba6c, cc348d369011362a5190fe96dd1f0dfbc697fdfd10e382b9e9666f0da05961b7, 99a2705ed38c1c26cbb8fe7acf36bbf626668e167a33335de932599219e0a235, e22bce619ae24ca3b8e6519281cb5a33b64b3190cc763248b4c3f9ad5087a92c, d58cf9939847921b2aab78eaa7b427dc4c649d25e6bee3c749ace4c3f52f5c97, 6c2c0667393c5f92f1885163068cd31800d2264eb088eb6fc740e11241b2bf06, e98753e360b3ef8059a6b8ea6327d0d8e0659e2ce10efceddebee69a40db9f86, 8a7806365bbd98d88b4c13832ebfa305f6abaeaf32cfa2b7dd25c4fa489b79fb, c1f1f00558799eec139fb4f4c76f95fb52fa1837a5dd29600baa1c8ed1bdccfd, 733e38d36a2759688a4b2c4cec69d48e7b55ecc8dedc8067b815926c917a182a, 814b6477c1505f3cdcb28e7c33161de3373f11da1a2ba705689558484e0c951b, 6839a6d3d430c569b2425e9391717b44ca324b88ba621d597778811b2d05031d, b30780986c028a69c45658dab9fd5d818e49b4d0cc2e2895f85430fce18135a5, 76bf0fd12bd945762a01f8fc5bbcdfa4d0ff20f8762af490f8f41d6237c6524f, 7f251391d4950ccf51b9983ebd2ffe1823d49ce92b536cc4ea96c18b38e2ae28, d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662, 057eed1fd48c238491b8ea06b9b5bf85a5d4c9275dd3f6183e0e6b01730cc2ba, e491352788e56ca4603acc411ffe1a49fefd76ed8b163af86cf5ee5f4c38645b, 40f452260bef3f29dede136108fc08a88d5a5250310281067087da6f0baddff7, 97b883cd8a2b7f49f90d5d39c981cf6e110cf1f1c64427a28a6d58ec88c43657] akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-16, akkaSource=akka://da-ui-backend/user/$a/party-the+holder, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:15.060UTC
+00:41:15.079 [da-ui-backend-akka.actor.default-dispatcher-6] INFO  c.d.n.s.platform.PlatformSubscriber - Successfully loaded packages [bfcd37bd6b84768e86e432f5f6c33e25d9e7724a9d42e33875ff74f6348e733f, 518032f41fd0175461b35ae0c9691e08b4aea55e62915f8360af2cc7a1f2ba6c, cc348d369011362a5190fe96dd1f0dfbc697fdfd10e382b9e9666f0da05961b7, 99a2705ed38c1c26cbb8fe7acf36bbf626668e167a33335de932599219e0a235, e22bce619ae24ca3b8e6519281cb5a33b64b3190cc763248b4c3f9ad5087a92c, d58cf9939847921b2aab78eaa7b427dc4c649d25e6bee3c749ace4c3f52f5c97, 6c2c0667393c5f92f1885163068cd31800d2264eb088eb6fc740e11241b2bf06, e98753e360b3ef8059a6b8ea6327d0d8e0659e2ce10efceddebee69a40db9f86, 8a7806365bbd98d88b4c13832ebfa305f6abaeaf32cfa2b7dd25c4fa489b79fb, c1f1f00558799eec139fb4f4c76f95fb52fa1837a5dd29600baa1c8ed1bdccfd, 733e38d36a2759688a4b2c4cec69d48e7b55ecc8dedc8067b815926c917a182a, 814b6477c1505f3cdcb28e7c33161de3373f11da1a2ba705689558484e0c951b, 6839a6d3d430c569b2425e9391717b44ca324b88ba621d597778811b2d05031d, b30780986c028a69c45658dab9fd5d818e49b4d0cc2e2895f85430fce18135a5, 76bf0fd12bd945762a01f8fc5bbcdfa4d0ff20f8762af490f8f41d6237c6524f, 7f251391d4950ccf51b9983ebd2ffe1823d49ce92b536cc4ea96c18b38e2ae28, d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662, 057eed1fd48c238491b8ea06b9b5bf85a5d4c9275dd3f6183e0e6b01730cc2ba, e491352788e56ca4603acc411ffe1a49fefd76ed8b163af86cf5ee5f4c38645b, 40f452260bef3f29dede136108fc08a88d5a5250310281067087da6f0baddff7, 97b883cd8a2b7f49f90d5d39c981cf6e110cf1f1c64427a28a6d58ec88c43657] akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-9, akkaSource=akka://da-ui-backend/user/$a/party-the+exchange, sourceActorSystem=da-ui-backend, akkaTimestamp=00:41:15.078UTC
+00:42:15.308 [da-ui-backend-akka.actor.default-dispatcher-17] WARN  c.d.l.c.s.c.CommandTrackerFlow$ - Completion Stream failed with an error. Trying to recover in 1 second .. 
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.308 [da-ui-backend-akka.actor.default-dispatcher-9] ERROR akka.stream.Materializer - [completion at client] Upstream failed. akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-17, akkaSource=akka.stream.Log(akka://da-ui-backend/system/Materializers/StreamSupervisor-4), sourceActorSystem=da-ui-backend, akkaTimestamp=00:42:15.302UTC
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.311 [da-ui-backend-akka.actor.default-dispatcher-16] WARN  c.d.l.c.s.c.CommandTrackerFlow$ - Completion Stream failed with an error. Trying to recover in 1 second .. 
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.311 [da-ui-backend-akka.actor.default-dispatcher-6] WARN  c.d.l.c.s.c.CommandTrackerFlow$ - Completion Stream failed with an error. Trying to recover in 1 second .. 
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.311 [da-ui-backend-akka.actor.default-dispatcher-5] ERROR akka.stream.Materializer - [completion at client] Upstream failed. akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-16, akkaSource=akka.stream.Log(akka://da-ui-backend/system/Materializers/StreamSupervisor-2), sourceActorSystem=da-ui-backend, akkaTimestamp=00:42:15.310UTC
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.311 [da-ui-backend-akka.actor.default-dispatcher-5] ERROR akka.stream.Materializer - [completion at client] Upstream failed. akkaAddress=akka://da-ui-backend, sourceThread=da-ui-backend-akka.actor.default-dispatcher-6, akkaSource=akka.stream.Log(akka://da-ui-backend/system/Materializers/StreamSupervisor-3), sourceActorSystem=da-ui-backend, akkaTimestamp=00:42:15.311UTC
+io.grpc.StatusRuntimeException: UNAVAILABLE: Channel shutdownNow invoked
+	at io.grpc.Status.asRuntimeException(Status.java:534)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:553)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:68)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:739)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:718)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+00:42:15.319 [da-ui-backend-akka.actor.default-dispatcher-16] WARN  akka.actor.CoordinatedShutdown - Could not addJvmShutdownHook, due to: Shutdown in progress akkaAddress=akka://da-ui-backend, sourceThread=shutdownHook2, akkaSource=CoordinatedShutdown(akka://da-ui-backend), sourceActorSystem=da-ui-backend, akkaTimestamp=00:42:15.318UTC

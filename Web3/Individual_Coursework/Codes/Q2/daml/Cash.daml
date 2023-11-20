@@ -1,0 +1,89 @@
+module Cash where
+
+import Daml.Script
+
+-- Define template and variable type
+template Cash
+  with -- 6 variables
+    amount : Decimal
+    currency : Text 
+    issuer : Party -- A bank
+    holder : Party
+    exchange : Party
+    exchangeRate : Decimal 
+  
+  -- Define the role of the parties
+  where
+    signatory issuer
+    ensure(  -- add the condition on the amount
+        amount >= 0.0
+      )
+    
+    controller holder can 
+      Transfer: (ContractId Cash
+        ) -- Add a function to transfer the cash to the new holder
+        with
+          newHolder: Party
+        do
+          create this with 
+            holder=newHolder
+            
+      UpdateExchangeRate: (ContractId Cash
+        ) -- Add a function that sets a new exchange rate
+        with
+          newExchangeRate: Decimal
+        do
+          create this with
+            exchangeRate=newExchangeRate
+
+    controller exchange can
+      Swap:(ContractId Cash
+        )
+        with  
+          newCurrency: Text
+        do
+          assert( --exchangeRate should greater than 1.0
+            exchangeRate>1.0
+            )
+          create this with
+            currency=newCurrency
+            amount=amount/exchangeRate
+          
+
+-- Scenario testing
+cashTests: Script ()
+cashTests = script do
+
+-- Add parties  
+party1 <- allocateParty "the issuer"
+party2 <- allocateParty "the holder"
+party3 <- allocateParty "the exchange"
+
+-- Create contract
+cash1 <- submit party1 do
+  createCmd Cash with
+    amount = 100.0
+    issuer = party1
+    holder = party1
+    exchange = party3
+    exchangeRate = 0.0
+    currency = "USD" 
+
+--- Transfer the cash  
+payCash1 <- submit party1 do
+  exerciseCmd cash1 Transfer with
+    newHolder = party2
+
+--- Update the exchange rate
+newRate1 <- submit party2 do
+  exerciseCmd payCash1 UpdateExchangeRate with
+    newExchangeRate = 1.2
+
+--- Swap the currency 
+swap1 <- submit party3 do
+  exerciseCmd newRate1 Swap with
+    newCurrency = "GBP"
+
+return()
+
+
